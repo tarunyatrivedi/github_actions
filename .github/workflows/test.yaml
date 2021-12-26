@@ -4,4 +4,5 @@ jobs:
   print-hello-world:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Hello, World!"       # batch command
+      - run: echo "Hello, World!"       # batch command one after another
+      - run: tree
