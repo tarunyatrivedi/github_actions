@@ -9,6 +9,7 @@ jobs:
         with: 
           node-version: 14
       - run: node -v
+      - run: zip index.zip index.html 
 
 
 
