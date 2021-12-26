@@ -4,5 +4,6 @@ jobs:
   print-hello-world:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - run: echo "Hello, World!"       # batch command one after another
       - run: tree
